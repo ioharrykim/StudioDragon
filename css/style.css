@@ -1,0 +1,991 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
+@import url("https://use.typekit.net/hgf6fzo.css");
+
+html {
+    font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+div > h3 {font-size: 1.2rem;padding-top: 150px;}
+
+/* SCROLL */
+::-webkit-scrollbar { width: 8px; }
+/* 스크롤바의 width */
+::-webkit-scrollbar-track { background-color: #212322; }
+/* 스크롤바의 전체 배경색 */
+::-webkit-scrollbar-thumb { 
+    background: linear-gradient(to bottom, #A6192E, #212322); 
+}
+/* 스크롤바 색 */
+::-webkit-scrollbar-button { display: none; }
+/* 위 아래 버튼 (버튼 없애기를 함) */
+
+
+/* SEC - COVER */
+#sec-cover {
+    width: 100%;
+    height: 1080px;
+    text-align: center;
+}
+#sec-cover .layer {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 46%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+#sec-cover video::-webkit-media-controls {
+    display:none;
+}
+#coverVideo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+    z-index:3;
+}
+.cover-title {
+    text-align: left;
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    left: 4%;
+    top: 50%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.cover-title p {
+    color: #B0B0B0;
+    font-weight: 300;
+}
+.cover-sign {
+    text-align: left;
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    left: 4%;
+    bottom: 5%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.cover-sign p {
+    color: #B0B0B0;
+    font-weight: 300;
+}
+
+/* SEC - OVERVIEW */
+#sec-overview {
+    width: 100%;
+    height: 1080px;
+    background-color: #fff;
+}
+.overview-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.overview-slogan {
+    margin-top: 120px;
+    /* float: right; */
+    text-align: right;
+    line-height: 1.2;
+}
+.overview-slogan h1 {
+    font-size: 5rem;
+}
+.overview-sum {
+    /* clear: both; */
+    /* float: right; */
+    text-align: right;
+}
+.overview-sum h4 {
+    font-size: 2rem;
+    margin-top: 245px;
+    margin-bottom: 65px;
+}
+.overview-image {
+    margin-top: -220px;
+}
+
+/* SEC - KEY */
+#sec-key {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    z-index: -100;
+}
+.key-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.key-box {
+    position: absolute;
+    background-color: #A6192E;
+    width: 131px;
+    height: 0px;
+}
+.key-1 {
+    margin-top: 120px;
+    /* float: right; */
+    text-align: left;
+    line-height: 1.2;
+}
+.key-1 h1 {
+    font-size: 5rem;
+}
+.key-1-sum {
+    margin-top: 41px;
+    margin-bottom: 250px;
+}
+.key-2 {
+    margin-top: 150px;
+    /* float: right; */
+    text-align: right;
+    line-height: 1.2;
+}
+.key-2 h1 {
+    z-index: 9999;
+    color: #000;
+    font-size: 5rem;
+}
+.key-2-sum {
+    clear: both;
+    text-align: right;
+    margin-bottom: -22px;
+}
+.solid-bar {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    width: 0;
+    height: 5em;
+    right: 0;
+    float: right;
+    margin-top: -200px;
+    padding-right: -20px;
+    z-index: 0;
+    padding: 5px;
+    opacity: 0;
+}
+.solid-bar h1 {
+    color: #000;
+    font-size: 5rem;
+    margin-top: -30px;
+}
+
+/* SEC - BRAND ISSUE */
+#sec-issue {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.issue-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.issue-image {
+    margin-top: 89px;
+}
+.issue-sum {
+    margin-top: 70px;
+}
+
+/* SEC - DESIGN MOTIF1 */
+#sec-motif1 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.motif1-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-motif1 {
+    display: flex;
+}
+.dtitle {
+    font-size: 1.2rem;
+    padding-top: 150px;
+    margin-left: 160px;
+}
+.ltitle {
+    font-size: 1.2rem;
+    padding-top: 150px;
+    margin-left: 600px;
+}
+/* .st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dashoffset:1000;} */
+.st0{
+    fill:none;stroke:#fff;
+    stroke-miterlimit:10;
+    stroke-dasharray: 2400;
+    stroke-dashoffset: 0;
+    animation: dashCircle 5s ease-in-out;
+}
+  
+@keyframes dashCircle {
+    from {
+    stroke-dashoffset: 2400;
+    }
+    to {
+    stroke-dashoffset: 0;
+    }
+}
+.circle-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+}
+.circle1 {
+    display: none;
+    margin-right: 64px;
+}
+.circle2 {
+    display: none;
+    margin-left: 64px;
+}
+.motif1-wrap {
+    position: absolute;
+    width: 1200px;
+}
+.motif1 h1 {
+    font-size: 7rem;
+    margin-top: 110px;
+}
+.motif1-sum {
+    text-align: right;
+    float: right;
+    margin-top: 311px;
+}
+
+/* SEC - DESIGN MOTIF2 */
+#sec-motif2 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.motif2-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-motif2 {
+    display: flex;
+}
+.motif2-wrap {
+    position: absolute;
+    width: 1200px;
+}
+.motif2 h1 {
+    font-size: 7rem;
+    margin-top: 110px;
+}
+.motif2-sum {
+    text-align: right;
+    float: right;
+    margin-top: 311px;
+}
+.st1{fill:none;stroke:#FFFFFF;
+    stroke-width:1;
+    stroke-miterlimit:10;
+    stroke-dasharray: 4500;
+    stroke-dashoffset: 0;
+    animation: dashSquare 3s ease-in-out;
+}
+@keyframes dashSquare {
+    from {
+    stroke-dashoffset: 4500;
+    }
+    to {
+    stroke-dashoffset: 0;
+    }
+}
+.square-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.square1 {
+    display: none;
+}
+
+/* SEC - LOGO GRAPHIC */
+#sec-logo {
+    width: 100%;
+    height: 1080px;
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(90deg, #ebebeb 0px, #dfdfdf 1px, transparent 1px, transparent 99px,  transparent 100px),
+      linear-gradient(#dfdfdf 0px, #dfdfdf 1px, transparent 1px, transparent 99px,  transparent 100px),
+      linear-gradient(#f0f0f0 0px, #f0f0f0 1px, transparent 1px, transparent 99px,  transparent 100px),
+      linear-gradient(90deg, #f0f0f0 0px, #f0f0f0 1px, transparent 1px, transparent 99px,  transparent 100px),
+      linear-gradient(transparent 0px, transparent 5px, #ffffff 5px, #ffffff 95px, transparent 95px, transparent 100px),
+      linear-gradient(90deg, #f0f0f0 0px, #f0f0f0 1px, transparent 1px, transparent 99px, #f0f0f0 99px, #f0f0f0 100px),
+      linear-gradient(90deg, transparent 0px, transparent 5px, #ffffff 5px, #ffffff 95px, transparent 95px, transparent 100px),
+      linear-gradient(transparent 0px, transparent 1px, #ffffff 1px, #ffffff 99px, transparent 99px, transparent 100px),
+      linear-gradient(#dfdfdf, #dfdfdf);
+    background-size:100px 100%, 100% 100px, 100% 10px, 10px 100%, 100% 100px, 100px 100%, 100px 100%, 100px 100px, 100px 100px;
+}
+.logo-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.square {
+    display: none;
+    /* opacity: 0; */
+    position: absolute;
+}
+.circle {
+    display: none;
+    /* opacity: 0; */
+    position: absolute;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.cr1{
+    fill:none;stroke:#000000;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dashCircle2 4s ease-in-out;
+}
+@keyframes dashCircle2 {
+    from {
+    stroke-dashoffset: 1000;
+    }
+    to {
+    stroke-dashoffset: 0;
+    }
+}
+.sq1{fill:none;stroke:#000000;
+    stroke-miterlimit:10;
+    stroke-width:1;
+    stroke-dasharray: 4500;
+    stroke-dashoffset: 0;
+    animation: dashSquare 4s ease-in-out;
+}
+.svg-wrap {
+    width: 600px;
+    margin: 112px auto 0 25px;
+}
+.logo-sum {
+    margin-top: 480px;
+    text-align: right;
+    float: right;
+}
+.logo-f {
+    display: flex;
+    position: absolute;
+    opacity: 0;
+}
+.logo-f img {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    margin-top: 1.4px;
+    margin-left: 26px;
+}
+.logo-f img:last-child {
+    margin-top: -25px;
+}
+.logo-s {
+    display: flex;
+    position: absolute;
+    opacity: 0;
+}
+.logo-s img {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    margin-top: 1.4px;
+    margin-left: 26px;
+}
+.logo-s img:last-child {
+    margin-top: -25px;
+}
+.logo1 {
+    opacity: 0;
+}
+.logo2 {
+    opacity: 0;
+}
+
+/* SEC - COLOR */
+#sec-color {
+    width: 100%;
+    height: 1080px;
+}
+.redline {
+    position: absolute;
+    background-color: #A6192E;
+    width: 0;
+    height: 1080px;
+    z-index: -100;
+}
+.color-container {
+    opacity: 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-color {
+    display: flex;
+}
+.color-sum {
+    padding-top: 150px;
+    margin-left: 160px;
+}
+
+    /* 컬러 공통 */
+.colorvalue {
+    display: block;
+    text-align: center;
+    margin-left: 95px;
+}
+.title h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+.value {
+    display: flex;
+}
+.color-title h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 0.4;
+    margin-right: 30px;
+    text-align: right;
+}
+.color-value h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.4;
+}
+
+    /* 컬러 값 */
+.color-ab {
+    position: absolute;
+    right: 0;
+    margin-top: 306px;
+}
+.c-black {
+    /* width: 950px; */
+    width: 0;
+    height: 423px;
+    background-color: #212322;
+    color: #A6192E;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+.colorvalue .bl {
+    opacity: 0;
+}
+.c-red {
+    width: 59em;
+    height: 345px;
+    background-color: #A6192E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+.c-white {
+    width: 423px;
+    height: 423px;
+    border-radius: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+    opacity: 0;
+}
+
+/* SEC - TYPE */
+#sec-type {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.type-container {
+    opacity: 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-type {
+    display: flex;
+}
+.type-sum {
+    padding-top: 150px;
+    margin-left: 160px;
+}
+.lang {
+    margin-top: 100px;
+    color: #A6192E;
+}
+.kor-wrap, .eng-wrap {
+    display: flex;
+}
+.eng-wrap {
+    font-family: 'Bicyclette', sans-serif;
+}
+.lang-title {
+    width: 400px;
+}
+.lang-title h1 {
+    font-size: 4rem;
+}
+.lang-sum {
+    width: 800px;
+    line-height: 1.4;
+    text-align: right;
+    margin-top: 10px;
+}
+.lang-sum.en {
+    margin-top: 20px;
+    line-height: 1.1;
+}
+.lang-sum h4 {
+    font-size: 4rem;
+    font-weight: 700;
+    opacity: 0;
+}
+.lang-sum h4 span {
+    color: #A6192E;
+}
+.lang-sum h5 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    opacity: 0;
+}
+.lang-sum h6 {
+    font-size: 3rem;
+    font-weight: 200;
+    opacity: 0;
+}
+
+/* SEC - MOCKUP1 */
+#sec-mockup1 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/idcard_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #A6192E;
+}
+.mockup1-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-mockup1 {
+    display: flex;
+}
+
+/* SEC - MOCKUP2 */
+#sec-mockup2 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/book_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.mockup2-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-mockup2 {
+    display: flex;
+}
+
+/* SEC - MOCKUP3 */
+#sec-mockup3 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/stationery_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #A6192E;
+}
+.mockup3-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-mockup3 {
+    display: flex;
+}
+
+/* SEC - MOCKUP4 */
+#sec-mockup4 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/ducktape_usb_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.mockup4-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-mockup4 {
+    display: flex;
+}
+.title-mockup4 h3 {
+    margin-right: 40em;
+}
+.title-mockup4 h3:last-child {
+    color: #A6192E;
+}
+
+/* SEC - MOCKUP5 */
+#sec-mockup5 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/rollup_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #A6192E;
+}
+.mockup5-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.title-mockup5 {
+    display: flex;
+}
+
+/* SEC - NEW */
+#sec-new {
+    width: 100%;
+    height: 1080px;
+}
+.new-container {
+    opacity: 0;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 4;
+}
+.title-new {
+    color: #fff;
+    position: absolute;
+    z-index: 4;
+}
+#sec-new video::-webkit-media-controls {
+    display:none;
+}
+#newVideo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+}
+.new-slogan {
+    color: #fff;
+    position: absolute;
+    margin-top: 240px;
+    /* float: right; */
+    text-align: left;
+    z-index: 1000;
+}
+.new-slogan h1 {
+    font-size: 7rem;
+    font-weight: 600;
+}
+.date-wrap {
+    padding-top: 60vh;
+}
+.date1 {
+    color: #A6192E;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.redline1 {
+    opacity: 0;
+    background-color: #A6192E;
+    width: 0vw;
+    height: 5px;
+    margin-top: 20px;
+}
+.redline2 {
+    opacity: 0;
+    background-color: #A6192E;
+    width: 0vw;
+    height: 5px;
+    margin-top: 20px;
+}
+.founded {
+    line-height: 0.9;
+}
+.founded h6 {
+    opacity: 0;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.founded p {
+    font-size: 7rem;
+    font-weight: 700;
+    margin: 0 15px;
+    opacity: 0;
+}
+.date2 {
+    color: #A6192E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.redline3 {
+    opacity: 0;
+    background-color: #A6192E;
+    width: 0vw;
+    height: 5px;
+    margin-top: 20px;
+}
+.redline4 {
+    opacity: 0;
+    background-color: #A6192E;
+    width: 0vw;
+    height: 85px;
+    margin-top: 20px;
+}
+.ttww {
+    line-height: 0.9;
+    text-align: right;
+}
+.ttww h6 {
+    opacity: 0;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.ttww p {
+    opacity: 0;
+    font-size: 7rem;
+    font-weight: 700;
+    margin: 0 15px;
+}
+
+/* SEC - SUMNEW */
+#sec-sumnew {
+    width: 100%;
+    height: 1080px;
+    /* background-color: black; */
+    background-image: url(#);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: #fff; */
+}
+.sumnew-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logoimage {
+    padding-top: 150px;
+}
+.logoimage img {
+    width: 432px;
+}
+#sec-sumnew > div h1 {
+    font-size: 7rem;
+    color: #A6192E;
+}
+#sec-sumnew > div h5 {
+    font-size: 2rem;
+}
+#sec-sumnew > div p {
+    font-size: 1rem;
+}
+
+
+.sticky1 {
+    width: 100%;
+    height: 1080px;
+    background-color: #212322;
+}
+.sticky2 {
+    width: 100%;
+    height: 1080px;
+    background-color: #45554d;
+}
+.sticky3 {
+    width: 100%;
+    height: 1080px;
+    background-color: #458d69;
+}
+.sticky4 {
+    width: 100%;
+    height: 1080px;
+    background-color: #1ee07f;
+}
+
+
+
+
+/* SEC - FINALE */
+#sec-finale {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/bg6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.finale-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.finale-wrap {
+    display: flex;
+    align-items: center;
+    height: 1080px;
+}
+.finale-sum-wrap {
+    float: right;
+    width: 1200px;
+    padding-top: 200px;
+}
+.finale-logo {
+    float: right;
+}
+.finale-sum {
+    clear: both;
+    text-align: right;
+    padding-top: 30px;
+}
+.finale-sum p {
+    font-weight: 300;
+}
+.finale-logo img {
+    width: 312px;
+}
+
+
+
+/* 반응형 */
+
+/* 1025 to 1540 LAPTOP */
+@media (min-width: 1025px) and (max-width: 1540px) {
+
+} 
+/* 768 to 1024 TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+/* 0 to 767px MOBILE */
+@media (max-width: 768px) {
+
+html {
+    font-size: 16px;
+}
+div > h3 {font-size: 1rem;padding-top: 50px;}
+
+/* SEC - COVER */
+#sec-cover {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+#sec-cover .layer img {
+    width: 216px;
+}
+.cover-title {
+    text-align: left;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 5%;
+    top: 85%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    font-size: 0.9rem;
+}
+.cover-sign {
+    text-align: left;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 5%;
+    bottom: 2%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    font-size: 0.9rem;
+}
+
+/* SEC - OVERVIEW */
+#sec-overview {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.overview-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.overview-slogan {
+    margin-top: 50px;
+    text-align: right;
+    line-height: 1.2;
+}
+.overview-slogan h1 {
+    font-size: 3rem;
+}
+.overview-sum {
+    /* clear: both; */
+    /* float: right; */
+    text-align: right;
+}
+.overview-sum h4 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+.overview-sum p {
+    font-size: 1rem;
+}
+.overview-image {
+    margin-top: 0px;
+}
+.overview-image img {
+    width: 100%;
+}
+
+} 
+
