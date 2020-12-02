@@ -178,168 +178,75 @@ $(window).scroll(function(){
 
     /* SEC - MOCKUP1 */
     if(scrollTop >= $("#sec-mockup1").offset().top - 400){
-        $(".mockup1-container").animate({
+        $(".mockup1-container").stop().animate({
             opacity: 100
         }, 1500, "easeInOutQuint");
     }
 
     /* SEC - NEW */
     if(scrollTop >= $("#sec-new").offset().top - 400){
-        $(".new-container").animate({
+        $(".new-container").stop().animate({
             opacity: 100
         }, 1500, "easeInOutQuint");
 
-        // // Date1
+        /* redline1 */
+        setTimeout(function(){
+            $(".redline1").stop().animate({
+                opacity: 100,
+                width: "35vw"
+            }, 1500, "easeInOutQuint");
+        }, 1600);
 
-        // /* redline1 */
-        // setTimeout(function(){
-        //     $(".redline1").animate({
-        //         opacity: 100,
-        //         width: "35vw"
-        //     }, 1500, "easeInOutQuint");
-        // }, 1500);
+        setTimeout(function(){
+            $(".founded h6").stop().animate({
+                opacity: 100
+            }, 1500, "easeInOutQuint");
+        }, 1800);
+        setTimeout(function(){
+            $(".founded p").stop().animate({
+                opacity: 100
+            }, 1500, "easeInOutQuint");
+        }, 1900);
 
-        // /* y1 */
-        // setTimeout(function(){
-        //     var y1Txt = 2016;
-        // $({ val : 0 }).animate({ val : y1Txt }, {
-        // duration: 1000,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".y1").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".y1").text(num);
-        // }
-        // });
-        // }, 1500);
-        // setTimeout(function(){
-        //     $(".founded h6").animate({
-        //         opacity: 100
-        //     }, 1500, "easeInOutQuint");
-        // }, 1500);
-        // setTimeout(function(){
-        //     $(".founded p").animate({
-        //         opacity: 100
-        //     }, 1500, "easeInOutQuint");
-        // }, 1500);
 
-        // /* m1 */
-        // setTimeout(function(){
-        //     var m1Txt = 05;
-        // $({ val : 0 }).animate({ val : m1Txt }, {
-        // duration: 500,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".m1").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".m1").text(num);
-        // }
-        // });
-        // }, 2000);
+        /* redline2 */
+        setTimeout(function(){
+            $(".redline2").stop().animate({
+                opacity: 100,
+                width: "55vw"
+            }, 1500, "easeInOutQuint");
+        }, 2500);
 
-        // /* d1 */
-        // setTimeout(function(){
-        //     var d1Txt = 03;
-        // $({ val : 0 }).animate({ val : d1Txt }, {
-        // duration: 500,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".d1").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".d1").text(num);
-        // }
-        // });
-        // }, 2500);
 
-        // /* redline2 */
-        // setTimeout(function(){
-        //     $(".redline2").animate({
-        //         opacity: 100,
-        //         width: "55vw"
-        //     }, 1500, "easeInOutQuint");
-        // }, 2700);
+        /* redline3 */
+        setTimeout(function(){
+            $(".redline3").stop().animate({
+                opacity: 100,
+                width: "55vw"
+            }, 1500, "easeInOutQuint");
+        }, 3200);
 
-        // // Date2
+        
+        setTimeout(function(){
+            $(".ttww h6").stop().animate({
+                opacity: 100
+            }, 1500, "easeInOutQuint");
+        }, 3400);
+        setTimeout(function(){
+            $(".ttww p").stop().animate({
+                opacity: 100
+            }, 1500, "easeInOutQuint");
+        }, 3500);
 
-        // /* redline3 */
-        // setTimeout(function(){
-        //     $(".redline3").animate({
-        //         opacity: 100,
-        //         width: "55vw"
-        //     }, 1500, "easeInOutQuint");
-        // }, 3200);
+        
 
-        // /* y2 */
-        // setTimeout(function(){
-        //     var y2Txt = 2020;
-        // $({ val : 0 }).animate({ val : y2Txt }, {
-        // duration: 1000,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".y2").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".y2").text(num);
-        // }
-        // });
-        // }, 3500);
-        // setTimeout(function(){
-        //     $(".ttww h6").animate({
-        //         opacity: 100
-        //     }, 1500, "easeInOutQuint");
-        // }, 4500);
-        // setTimeout(function(){
-        //     $(".ttww p").animate({
-        //         opacity: 100
-        //     }, 1500, "easeInOutQuint");
-        // }, 3500);
-
-        // /* m2 */
-        // setTimeout(function(){
-        //     var m2Txt = 12;
-        // $({ val : 0 }).animate({ val : m2Txt }, {
-        // duration: 1000,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".m2").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".m2").text(num);
-        // }
-        // });
-        // }, 4000);
-
-        // /* d2 */
-        // setTimeout(function(){
-        //     var d2Txt = 12;
-        // $({ val : 0 }).animate({ val : d2Txt }, {
-        // duration: 1000,
-        // step: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".d2").text(num);
-        // },
-        // complete: function() {
-        //     var num = numberUp(Math.floor(this.val));
-        //     $(".d2").text(num);
-        // }
-        // });
-        // }, 4500);
-
-        // /* redline2 */
-        // setTimeout(function(){
-        //     $(".redline4").animate({
-        //         opacity: 100,
-        //         width: "35vw"
-        //     }, 1500, "easeInOutQuint");
-        // }, 4000);
+        /* redline2 */
+        setTimeout(function(){
+            $(".redline4").animate({
+                opacity: 100,
+                width: "35vw"
+            }, 1500, "easeInOutQuint");
+        }, 4100);
         
         // function numberUp(x) {
         //     return x.toString().replace();
