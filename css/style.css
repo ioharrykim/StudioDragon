@@ -113,6 +113,15 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     margin-top: 245px;
     margin-bottom: 65px;
 }
+.overview-sum-mo {
+    display: none;
+    text-align: right;
+}
+.overview-sum-mo h4 {
+    font-size: 2rem;
+    margin-top: 245px;
+    margin-bottom: 65px;
+}
 .overview-image {
     margin-top: -220px;
 }
@@ -137,6 +146,13 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     width: 131px;
     height: 0px;
 }
+.key-box-m {
+    display: none;
+    position: absolute;
+    background-color: #A6192E;
+    width: 131px;
+    height: 0px;
+}
 .key-1 {
     margin-top: 120px;
     /* float: right; */
@@ -150,16 +166,14 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     margin-top: 41px;
     margin-bottom: 250px;
 }
-.key-2 {
-    margin-top: 150px;
-    /* float: right; */
-    text-align: right;
-    line-height: 1.2;
+.key-1-sum-m {
+    display: none;
 }
-.key-2 h1 {
-    z-index: 9999;
-    color: #000;
-    font-size: 5rem;
+.key-2-sum-m {
+    display: none;
+}
+.key-2 {
+    display: none;
 }
 .key-2-sum {
     clear: both;
@@ -204,6 +218,9 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
 .issue-sum {
     margin-top: 70px;
 }
+.issue-sum-m {
+    display: none;
+}
 
 /* SEC - DESIGN MOTIF1 */
 #sec-motif1 {
@@ -230,6 +247,9 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     font-size: 1.2rem;
     padding-top: 150px;
     margin-left: 600px;
+}
+.circle-m {
+    display: none;
 }
 /* .st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dashoffset:1000;} */
 .st0{
@@ -273,6 +293,12 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     text-align: right;
     float: right;
     margin-top: 311px;
+}
+.motif1-sum-m {
+    display: none;
+}
+.motif1-m {
+    display: none;
 }
 
 /* SEC - DESIGN MOTIF2 */
@@ -325,6 +351,12 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     margin-top: 37px;
 }
 .square1 {
+    display: none;
+}
+.motif2-sum-m {
+    display: none;
+}
+.motif2-m {
     display: none;
 }
 
@@ -428,6 +460,9 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
 .logo2 {
     opacity: 0;
 }
+.logo-sum-m {
+    display: none;
+}
 
 /* SEC - COLOR */
 #sec-color {
@@ -452,6 +487,9 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
 .color-sum {
     padding-top: 150px;
     margin-left: 160px;
+}
+.color-m {
+    display: none;
 }
 
     /* 컬러 공통 */
@@ -733,16 +771,16 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     align-items: center;
 }
 .redline1 {
-    opacity: 0;
+    /* opacity: 0; */
     background-color: #A6192E;
-    width: 0vw;
+    width: 35vw;
     height: 5px;
     margin-top: 20px;
 }
 .redline2 {
-    opacity: 0;
+    /* opacity: 0; */
     background-color: #A6192E;
-    width: 0vw;
+    width: 55vw;
     height: 5px;
     margin-top: 20px;
 }
@@ -750,7 +788,7 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     line-height: 0.9;
 }
 .founded h6 {
-    opacity: 0;
+    /* opacity: 0; */
     font-size: 2rem;
     color: #fff;
     font-weight: 400;
@@ -760,7 +798,7 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     font-size: 7rem;
     font-weight: 700;
     margin: 0 15px;
-    opacity: 0;
+    /* opacity: 0; */
 }
 .date2 {
     color: #A6192E;
@@ -770,16 +808,16 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     margin-top: 35px;
 }
 .redline3 {
-    opacity: 0;
+    /* opacity: 0; */
     background-color: #A6192E;
-    width: 0vw;
+    width: 55vw;
     height: 5px;
     margin-top: 20px;
 }
 .redline4 {
-    opacity: 0;
+    /* opacity: 0; */
     background-color: #A6192E;
-    width: 0vw;
+    width: 35vw;
     height: 85px;
     margin-top: 20px;
 }
@@ -788,14 +826,14 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     text-align: right;
 }
 .ttww h6 {
-    opacity: 0;
+    /* opacity: 0; */
     font-size: 2rem;
     color: #fff;
     font-weight: 400;
     margin-right: 15px;
 }
 .ttww p {
-    opacity: 0;
+    /* opacity: 0; */
     font-size: 7rem;
     font-weight: 700;
     margin: 0 15px;
@@ -1049,6 +1087,7 @@ div > h3 {font-size: 1rem;padding-top: 50px;}
     /* clear: both; */
     /* float: right; */
     text-align: right;
+    display: none;
 }
 .overview-sum h4 {
     font-size: 2rem;
@@ -1058,11 +1097,294 @@ div > h3 {font-size: 1rem;padding-top: 50px;}
 .overview-sum p {
     font-size: 1rem;
 }
+.overview-sum-mo {
+    float: right;
+    display: block;
+}
+.overview-sum-mo h4 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.overview-sum-mo p {
+    font-size: 1rem;
+    float: right;
+    width: 18em;
+}
 .overview-image {
-    margin-top: 0px;
+    display: none;
 }
 .overview-image img {
     width: 100%;
+}
+
+/* SEC - KEY */
+#sec-key {
+    width: 100%;
+    height: 100vh;
+}
+.key-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.key-box {
+    display: none;
+}
+.key-box-m {
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+.key-1 {
+    margin-top: 100px;
+    /* float: right; */
+    text-align: left;
+    line-height: 1.2;
+}
+.key-1 h1 {
+    color: #A6192E;
+    font-size: 3rem;
+}
+.key-1-sum {
+    display: none;
+}
+.key-1-sum-m {
+    display: block;
+    width: 18em;
+    font-size: 1rem;
+    margin-top: 35px;
+}
+.solid-bar {
+    display: none;
+}
+.key-2 {
+    display: block;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 1.2;
+}
+.key-2 h1 {
+    color: #A6192E;
+    font-size: 3rem;
+}
+.key-2-sum {
+    display: none;
+}
+.key-2-sum-m {
+    display: block;
+    width: 18em;
+    font-size: 1rem;
+    margin-top: 35px;
+}
+
+/* SEC - BRAND ISSUE */
+#sec-issue {
+    width: 100%;
+    height: 100vh;
+}
+.issue-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.issue-image {
+    margin-top: 150px;
+}
+.issue-image img {
+    width: 100%;
+}
+.issue-sum {
+    display: none;
+} 
+.issue-sum-m {
+    display: block;
+    margin-top: 50px;
+    width: 18em;
+}
+
+/* SEC - DESIGN MOTIF1 */
+#sec-motif1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg3_m.png);
+}
+.motif1-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.title-motif1 {
+    display: block;
+}
+.dtitle, .ltitle {
+    display: none;
+}
+.motif1 {
+    display: none;
+}
+.motif1-wrap {
+    width: 90%;
+}
+.motif1-m {
+    display: block;
+    margin-top: 80px;
+}
+.motif1-m h1 {
+    font-size: 3rem;
+    line-height: 0.8;
+}
+.circle-wrap {
+    display: none;
+}
+.circle-wrap-m {
+    display: flex;
+    justify-content: center;
+}
+.circle-m {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 1px solid #fff;
+    margin: 30px auto;
+}
+.motif1-sum {
+    display: none;
+}
+.motif1-sum-m {
+    float: right;
+    display: block;
+    text-align: right;
+}
+
+/* SEC - DESIGN MOTIF2 */
+#sec-motif2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg4_m.png);
+}
+.motif2-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.title-motif2 {
+    display: block;
+}
+.motif2 {
+    display: none;
+}
+.motif2-wrap {
+    width: 90%;
+}
+.motif2-m {
+    display: block;
+    margin-top: 80px;
+}
+.motif2-m h1 {
+    font-size: 3rem;
+    line-height: 0.8;
+}
+.square-wrap {
+    display: none;
+}
+.square-wrap-m {
+    display: flex;
+    justify-content: center;
+}
+.square-m {
+    display: block;
+    width: 300px;
+    height: 160px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    margin: 30px auto;
+}
+.motif2-sum {
+    display: none;
+}
+.motif2-sum-m {
+    float: right;
+    display: block;
+    text-align: right;
+}
+
+/* SEC - LOGO GRAPHIC */
+#sec-logo {
+    width: 100%;
+    height: 100vh;
+}
+.logo-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.svg-wrap, .logo1, .logo2 {
+    display: none;
+}
+.logo-m-wrap {
+    margin-top: 100px;
+}
+.logo-m-1 h1 {
+    font-size: 0.8rem;
+    color: #aaaaaa;
+}
+.logo-m-1 img {
+    width: 324px;
+}
+.logo-m-2 h1 {
+    font-size: 0.8rem;
+    color: #aaaaaa;
+}
+.logo-m-2 img {
+    width: 326px;
+}
+.logo-sum {
+    display: none;
+}
+.logo-sum-m {
+    display: block;
+    width: 18em;
+    margin-top: 80px;
+}
+
+/* SEC - COLOR */
+#sec-color {
+    width: 100%;
+    height: 100vh;
+}
+.color-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.redline, .color-ab, .c-black, .c-red, .c-white {
+    display: none;
+}
+.color-m {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.color-m-red {
+    background-color: #A6192E;
+    width: 100%;
+    height: 50%;
+}
+.color-m-black {
+    background-color: #212322;
+    width: 100%;
+    height: 25%;
+}
+.color-m-white {
+    background-color: #fff;
+    width: 100%;
+    height: 25%;
+}
+.color-container-m {
+    width: 90%;
+    margin: 0 5%;
+}
+.title-color-m {
+
+}
+.color-sum-m {
+    margin-top: 50px;
 }
 
 } 

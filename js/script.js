@@ -11,14 +11,16 @@ $(window).scroll(function(){
     $(".content").each(function(){
     let offset1 = (scrollTop - $(this).offset().top) * 0.1;
     let offset2 = (scrollTop - $(this).offset().top) * 0.2;
+
+    
     
 
     /* SEC - OVERVIEW */
     if(scrollTop >= $(".title-overview").offset().top){
-        $(this).find(".title-overview").css({ "transform": "translateY(" + -offset2 + "px)" });
-        $(this).find(".overview-slogan").css({ "transform": "translateY(" + offset1 + "px)" });
-        $(this).find(".overview-sum").css({ "transform": "translateY(" + -offset2 + "px)" });
-        $(this).find(".overview-image").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".title-overview").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".overview-slogan").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".overview-sum").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".overview-image").css({ "transform": "translateY(" + offset1 + "px)" });
     }
 
     if(scrollTop >= $(".overview-slogan").offset().top){
@@ -33,6 +35,12 @@ $(window).scroll(function(){
             opacity: 100,
             width: "36em"
         }, 1500, "easeInOutQuint");
+        // $(this).find(".title-key").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".key-box").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".key-1").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".key-1-sum").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".key-2-sum").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".solid-bar").css({ "transform": "translateY(" + offset1 + "px)" });
     }
 
     /* SEC - MOTIF */
@@ -189,64 +197,64 @@ $(window).scroll(function(){
             opacity: 100
         }, 1500, "easeInOutQuint");
 
-        /* redline1 */
-        setTimeout(function(){
-            $(".redline1").stop().animate({
-                opacity: 100,
-                width: "35vw"
-            }, 1500, "easeInOutQuint");
-        }, 1600);
+        // /* redline1 */
+        // setTimeout(function(){
+        //     $(".redline1").stop().animate({
+        //         opacity: 100,
+        //         width: "35vw"
+        //     }, 1500, "easeInOutQuint");
+        // }, 1600);
 
-        setTimeout(function(){
-            $(".founded h6").stop().animate({
-                opacity: 100
-            }, 1500, "easeInOutQuint");
-        }, 1800);
-        setTimeout(function(){
-            $(".founded p").stop().animate({
-                opacity: 100
-            }, 1500, "easeInOutQuint");
-        }, 1900);
-
-
-        /* redline2 */
-        setTimeout(function(){
-            $(".redline2").stop().animate({
-                opacity: 100,
-                width: "55vw"
-            }, 1500, "easeInOutQuint");
-        }, 2500);
+        // setTimeout(function(){
+        //     $(".founded h6").stop().animate({
+        //         opacity: 100
+        //     }, 1500, "easeInOutQuint");
+        // }, 1800);
+        // setTimeout(function(){
+        //     $(".founded p").stop().animate({
+        //         opacity: 100
+        //     }, 1500, "easeInOutQuint");
+        // }, 1900);
 
 
-        /* redline3 */
-        setTimeout(function(){
-            $(".redline3").stop().animate({
-                opacity: 100,
-                width: "55vw"
-            }, 1500, "easeInOutQuint");
-        }, 3200);
+        // /* redline2 */
+        // setTimeout(function(){
+        //     $(".redline2").stop().animate({
+        //         opacity: 100,
+        //         width: "55vw"
+        //     }, 1500, "easeInOutQuint");
+        // }, 2500);
 
-        
-        setTimeout(function(){
-            $(".ttww h6").stop().animate({
-                opacity: 100
-            }, 1500, "easeInOutQuint");
-        }, 3400);
-        setTimeout(function(){
-            $(".ttww p").stop().animate({
-                opacity: 100
-            }, 1500, "easeInOutQuint");
-        }, 3500);
+
+        // /* redline3 */
+        // setTimeout(function(){
+        //     $(".redline3").stop().animate({
+        //         opacity: 100,
+        //         width: "55vw"
+        //     }, 1500, "easeInOutQuint");
+        // }, 3200);
 
         
+        // setTimeout(function(){
+        //     $(".ttww h6").stop().animate({
+        //         opacity: 100
+        //     }, 1500, "easeInOutQuint");
+        // }, 3400);
+        // setTimeout(function(){
+        //     $(".ttww p").stop().animate({
+        //         opacity: 100
+        //     }, 1500, "easeInOutQuint");
+        // }, 3500);
 
-        /* redline2 */
-        setTimeout(function(){
-            $(".redline4").animate({
-                opacity: 100,
-                width: "35vw"
-            }, 1500, "easeInOutQuint");
-        }, 4100);
+        
+
+        // /* redline2 */
+        // setTimeout(function(){
+        //     $(".redline4").animate({
+        //         opacity: 100,
+        //         width: "35vw"
+        //     }, 1500, "easeInOutQuint");
+        // }, 4100);
         
         // function numberUp(x) {
         //     return x.toString().replace();
