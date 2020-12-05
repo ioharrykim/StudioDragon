@@ -15,10 +15,10 @@ $(window).scroll(function(){
 
     /* SEC - OVERVIEW */
     if(scrollTop >= $(".title-overview").offset().top){
-        $(this).find(".title-overview").css({ "transform": "translateY(" + -offset2 + "px)" });
-        $(this).find(".overview-slogan").css({ "transform": "translateY(" + offset1 + "px)" });
-        $(this).find(".overview-sum").css({ "transform": "translateY(" + -offset2 + "px)" });
-        $(this).find(".overview-image").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".title-overview").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".overview-slogan").css({ "transform": "translateY(" + offset1 + "px)" });
+        // $(this).find(".overview-sum").css({ "transform": "translateY(" + -offset2 + "px)" });
+        // $(this).find(".overview-image").css({ "transform": "translateY(" + offset1 + "px)" });
     }
 
     if(scrollTop >= $(".overview-slogan").offset().top){
