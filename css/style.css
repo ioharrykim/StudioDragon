@@ -1387,5 +1387,14 @@ div > h3 {font-size: 1rem;padding-top: 50px;}
     margin-top: 50px;
 }
 
+
+
+
+/* 아직 안한것들 */
+
+/* SEC - TYPE */
+#sec-type, #sec-mockup1, #sec-mockup2, #sec-mockup3, #sec-mockup4, #sec-mockup5, #sec-new, #sec-sumnew, #sec-finale {
+    display: none;
+}
 } 
 
