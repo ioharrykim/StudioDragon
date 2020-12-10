@@ -232,6 +232,7 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     background-image: url(../images/bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 .motif1-container {
@@ -311,6 +312,7 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
     background-image: url(../images/bg4.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 .motif2-container {
@@ -1026,7 +1028,12 @@ div > h3 {font-size: 1.2rem;padding-top: 150px;}
 
 /* 1025 to 1540 LAPTOP */
 @media (min-width: 1025px) and (max-width: 1540px) {
-
+    .overview-image img {
+        margin-left: -300px;
+    }
+    .color-ab {
+        margin-right: -200px;
+    }
 } 
 /* 768 to 1024 TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
